@@ -30,7 +30,7 @@ function newItem(){
     li.addClass("delete")
   }
 
-  // add strikethrough on item in list
+  // add strikethrough when clicking an item in list
   li.on("click", function() {
     li.addClass("strike");
   });
